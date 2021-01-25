@@ -13,17 +13,17 @@ namespace Game
 
         public void Add()
         {
-            Console.WriteLine("Oyuncu eklendi.");
+            Console.WriteLine(Name +" "+ Surname + " adlı oyuncu eklendi.");
         }
 
         public void Delete()
         {
-            Console.WriteLine("Oyuncu silindi.");
+            Console.WriteLine(Name +" "+ Surname + " adlı oyuncu silindi.");
         }
 
         public void Update()
         {
-            Console.WriteLine("Oyuncu güncellendi.");
+            Console.WriteLine(Name +" "+ Surname + " adlı oyuncu güncellendi.");
         }
     }
 }

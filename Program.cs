@@ -6,7 +6,18 @@ namespace Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GamerManager gamerManager = new GamerManager();
+            gamerManager.Name = "Bensu";
+            gamerManager.Surname = "Erdogan";
+            gamerManager.TCNo = "12345678910";
+            gamerManager.Birthdate = "00/00/000";
+
+            SalesManager salesManager = new SalesManager();
+
+            salesManager.Sale(gamerManager);
+
+
+
         }
     }
 }
